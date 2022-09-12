@@ -1,0 +1,10 @@
+div {
+  position: relative;
+  bottom: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}

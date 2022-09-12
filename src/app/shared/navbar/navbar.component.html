@@ -1,0 +1,27 @@
+<div>
+  <button
+    pButton
+    type="button"
+    class="p-button-text btn"
+    (click)="selectLanguaje()"
+  >
+    <img class="flat" [src]="flat" />
+  </button>
+
+  <p-dock [model]="dockBasicItems" position="left">
+
+    <ng-template let-item pTemplate="item">
+
+      <div pRipple>
+
+        <a [routerLink]="item.routerLink"
+          routerLinkActive="router-link-active"
+          >
+          <img [src]="item.icon" [alt]="item.label" />
+        </a>
+        
+      </div>
+
+    </ng-template>
+  </p-dock>
+</div>

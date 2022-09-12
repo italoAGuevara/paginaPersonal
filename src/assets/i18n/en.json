@@ -1,0 +1,11 @@
+{
+  "home": {
+    "greeting": "Hello",
+    "world": "World !",
+    "user": "Users",
+    "everyone": "Everyone"
+  },
+  "contact": {
+
+  }
+}
