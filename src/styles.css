@@ -1,11 +1,11 @@
-body {
+/* body {
   background-image: url("assets/backgrounds/white.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: var(--primary-color);
-}
+} */
 
 .main {
   margin-left: 300px;

@@ -7,5 +7,13 @@
   },
   "contact": {
 
+  },
+  "skills":"skills",
+  "experience":{
+    "konecta":"This in in english",
+    "sofka":"This in in english",
+    "semillero":"This in in english",
+    "freelance":"This in in english",
+    "study":"This in in english"
   }
 }

@@ -12,10 +12,10 @@ import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
+    ContactComponent,
     ProyectsComponent,
     HomeComponent,
     ExperienceComponent,
-    ContactComponent,
   ],
   imports: [
     CommonModule,
@@ -26,6 +26,7 @@ import { SharedModule } from '../shared/shared.module';
   exports: [
     ContactComponent,
     HomeComponent,
+    ExperienceComponent,
     ProyectsComponent,
   ]
 })

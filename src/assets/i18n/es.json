@@ -4,5 +4,13 @@
     "world": "Mundo !",
     "user": "Visitante",
     "everyone": "A Todos"
+  },
+  "skills":"Habilidades",
+  "experience":{
+    "konecta":"Automatizar tareas a tráves de una app web desarrollada en javascript, Angular y .NET la cual ha permitido optimizar y acelerar el tiempo de resolución de tickets, también he logrado desarrollar multiples formularios de gestión de agentes en javascript, haber creado, optimizado y dado mantenimiendo a Store procedure, consultas avanzadas y creación de jobs para la estabilidad y larga durabilidad de las bases de datos.",
+    "sofka":"Desarrollador e implementador de inconcert, Mi mayor logro ha sido poder desarrollar APIS(.NET) con diferentes propósitos entre ellos administrar una base de datos de números bloqueados a través de la API y evitar que se generen llamadas salientes desde el call center. Desarrollar un servicio de mensajería HSM de whatsapp con el cual se le envía a los clientes mensajes de forma automatica y masiva.",
+    "semillero":"Participante del programa de semilleros, en JAVA, Javascript, Node y Sql, en el cual pude desarrollar fuertes bases en el desarrollo y logica de API Rest y consumo, también adquirir bases solidad en SQL que me permitieron llegar a ser contratado directamente por la empresa patrocinadora. ",
+    "freelance":"Esto esta en español",
+    "study":"El inicio de este viaje en el mundo del desarrollo inicio un día muy casual donde dos amigos nos reunimos para dar inicio a un proyecto web, el cual decidimos iniciar a pesar de no contar con ningun tipo de conocimientos, para lograr ese objeto decidimos dedicar nuestro esfuerzo en aprender todas las tecnologias y bases necesarias, esto hizo que en el año 2021 ingresara a la Universidad he impulsara mi conocimiento"
   }
 }

@@ -1,46 +1,6 @@
-<div class="main1">
-  <!--   <p-timeline [value]="events" align="alternate">
-    <ng-template pTemplate="marker" let-event>
-      <span
-        class="custom-marker shadow-2"
-        [style.backgroundColor]="event.color"
-      >
-        <i [ngClass]="event.icon"></i>
-      </span>
-    </ng-template>
+ <div class="main1">
 
-    <ng-template pTemplate="content" let-event>
-      <p-card [header]="event.status" [subheader]="event.date">
-        <p-fieldset legend="More" [toggleable]="true">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </p-fieldset>
-      </p-card>
-    </ng-template>
-  </p-timeline> -->
-
-  <p-splitter [panelSizes]="[15, 85]">
-    <ng-template pTemplate> 
-      <ul>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-        <li>dfkjfd</li>
-      </ul>
-
-    </ng-template>
-    <ng-template pTemplate>
-      <p-timeline [value]="events" align="alternate">
+      <p-timeline [value]="events" align="alternate" >
         <ng-template pTemplate="marker" let-event>
           <span
             class="custom-marker shadow-2"
@@ -51,23 +11,13 @@
         </ng-template>
 
         <ng-template pTemplate="content" let-event>
-          <p-card [header]="event.status" [subheader]="event.date">
-            <p-fieldset legend="More Info" [toggleable]="true">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+          <p-card [header]="event.status" [subheader]="event.date" >
+            <p-fieldset legend="More Info" [toggleable]="true" >
+              <p>{{ event.rout | translate }}</p>
+              <p>{{ event.skills.lenght }}</p>
             </p-fieldset>
           </p-card>
         </ng-template>
       </p-timeline>
-    </ng-template>
-  </p-splitter>
-</div>
 
-<!--  <app-footer></app-footer> -->
+</div> 
