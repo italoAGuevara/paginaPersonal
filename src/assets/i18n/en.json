@@ -10,10 +10,33 @@
   },
   "skills":"skills",
   "experience":{
+    "title":"Learn about my professional career",
     "konecta":"This in in english",
     "sofka":"This in in english",
     "semillero":"This in in english",
     "freelance":"This in in english",
     "study":"This in in english"
+  },
+  "projects":{
+    "title":"Discover some of my projects",
+    "conversorCSV":{
+      "title":"Transfor CSV to Json",
+      "subTitel":"idfjsifjsdif",
+      "info":"fewjfifjewiofjfeiowjfeoiefj"
+    },
+    "editorJavascript":{
+      "title":"Editor de texto online Javascript",
+      "subTitle":"",
+      "info":"Ejecuta código javascript, typescript y visualiza su ejecución"
+    }
+  },
+  "additionalsText":{
+    "moreInfo":"Show Info",
+    "lessInfo":"Show Less",
+    "writeHere":"Write your code typescript or javasciprt here ⬇⬇",
+    "channels":"Comunication channels",
+    "phone":"Cel phone",
+    "mail":"Email",
+    "linkedin":"linkedin"
   }
 }

@@ -1,16 +1,54 @@
-<!-- <div *ngFor="let project of projects">
-  <p-card>
-    <ng-template pTemplate="header"> <h1>{{ project }}</h1> </ng-template>
-    Body Content
+<div class="main1">
+  
+  <h1>{{ "projects.title" | translate | titlecase }}</h1>
+  
+  <hr>
+ 
+  <ul *ngFor="let project of projects">
+
+    <img src="{{ project.img }}" (mouseenter)="showDialog()">
+
+    <h3>{{ project.title | translate | titlecase }}</h3>
+
+    <button
+      pButton
+      type="button"
+      label="{{ 'additionalsText.moreInfo' | translate }}"
+      class="p-button-info p-button-rounded"   
+      (click)="showDialog()" >
+    </button>
+
+  </ul>
+
+  <p-dialog [(visible)]="display" 
+    [transitionOptions]="'30ms'"
+  >
+
+    <ng-template pTemplate="header">
+      {{ proyectSelected.title | translate | titlecase }}
+    </ng-template>
+
+    <p-image src="{{ proyectSelected.img }}" 
+      alt="Image" 
+      width="250" >
+    </p-image>
+
+    <p>{{ proyectSelected.info | translate }}</p>
 
     <ng-template pTemplate="footer">
+
       <button
         pButton
         type="button"
-        label="More..."
+        label="{{ 'additionalsText.moreInfo' | translate }}"
         class="p-button-info p-button-rounded"
+        (click)="showDialog()"
       ></button>
-    </ng-template>
-  </p-card>
-</div> -->
 
+    </ng-template>
+
+  </p-dialog>
+
+</div>
+
+<app-footer></app-footer>

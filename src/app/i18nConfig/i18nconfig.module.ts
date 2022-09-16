@@ -11,7 +11,9 @@ export function HttpLoaderFactory( http: HttpClient ) {
   return new TranslateHttpLoader( http, './assets/i18n/', '.json' );
 }
 
-
+/**
+ * se configura el modulo de lenguaje para ser exportado y configurado en el NAVBAR
+ */
 @NgModule({
   declarations: [],
   imports: [

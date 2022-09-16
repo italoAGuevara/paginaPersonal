@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { Skill } from 'src/app/interfaces/pages.interfaces';
 
 @Component({
   selector: 'app-footer',
@@ -8,28 +9,37 @@ import { MenuItem } from 'primeng/api';
 })
 export class FooterComponent{
 
-  dockItems: MenuItem[] = []
-
-  ngOnInit() {
-      this.dockItems = [
-          {
-              label: 'Mail',
-              icon: "assets/icons/mail apple.png"
-          },
-          {
-              label: 'Call',
-              icon: "assets/icons/phone apple.png"
-          },
-          {
-              label: 'Photos',
-              icon: "assets/showcase/images/dock/photos.svg"
-          },
-          {
-              label: 'Trash',
-              icon: "assets/showcase/images/dock/trash.png"
-          }
-      ];
-
-  }
+    skills : Skill[] = [
+        {
+          id:'Angular',
+          more:'',
+          img:'../../../assets/icons/skills/angular.png'
+        },
+        {
+          id:'.NET',
+          more:'',
+          img:'../../../assets/icons/skills/net.svg'
+        },
+        {
+          id:'Sql Server',
+          more:'',
+          img:'../../../assets/icons/skills/sql server.png'
+        },
+        {
+          id:'Inconcert',
+          more:'',
+          img:'../../../assets/icons/skills/inconcert.jpg'
+        },
+        {
+          id:'Asterisk',
+          more:'',
+          img:'../../../assets/icons/skills/asterisk.png'
+        },
+        {
+          id:'Docker',
+          more:'',
+          img:'../../../assets/icons/skills/docker.png'
+        }
+      ]
 
 }

@@ -11,6 +11,8 @@ import { Events, Skill } from 'src/app/interfaces/pages.interfaces';
 })
 export class ExperienceComponent implements OnInit {
 
+  moreInfoRout : string[] = ['additionalsText.moreInfo', 'additionalsText.lessInfo']
+
   skills: Skill[] = [
     {
       id:'Angular',

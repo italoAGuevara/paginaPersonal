@@ -1,5 +1,10 @@
-<p-dock [model]="dockItems" position="bottom">
-  <ng-template pTemplate="item" let-item>
-    <img [src]="item.icon" [alt]="item.label" width="100%" />
-  </ng-template>
-</p-dock>
+<div class="footer">
+    
+  <ul class="listSkills" *ngFor="let skill of skills">
+      <li>
+       <!--    <img class="iconSkill" src="{{ skill.img }}"> -->
+          {{ skill.id }}
+      </li>
+  </ul>
+
+</div>

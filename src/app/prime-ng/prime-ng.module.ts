@@ -4,9 +4,11 @@ import { AccordionModule } from 'primeng/accordion';     //accordion and accordi
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
+import { DialogModule } from 'primeng/dialog';
 import { DockModule } from 'primeng/dock';
 import { FieldsetModule } from 'primeng/fieldset';
 import { GalleriaModule } from 'primeng/galleria';
+import { ImageModule } from 'primeng/image';
 import { ListboxModule } from 'primeng/listbox';
 import { OrganizationChartModule } from 'primeng/organizationchart';
 import { RippleModule } from 'primeng/ripple';
@@ -24,9 +26,11 @@ import { TimelineModule } from 'primeng/timeline';
     ButtonModule,
     CardModule,
     DataViewModule, 
+    DialogModule,
     DockModule,
     FieldsetModule,
     GalleriaModule,
+    ImageModule,
     ListboxModule, 
     OrganizationChartModule,
     RippleModule,

@@ -1,23 +1,26 @@
- <div class="main1">
+<div class="main1">
+  <h1>{{ "experience.title" | translate | titlecase }}</h1>
+  <hr>
+  <p-timeline [value]="events" align="alternate">
 
-      <p-timeline [value]="events" align="alternate" >
-        <ng-template pTemplate="marker" let-event>
-          <span
-            class="custom-marker shadow-2"
-            [style.backgroundColor]="event.color"
-          >
-            <i [ngClass]="event.icon"></i>
-          </span>
-        </ng-template>
+    <ng-template pTemplate="marker" let-event>
+      <span
+        class="custom-marker shadow-2"
+        [style.backgroundColor]="event.color">
 
-        <ng-template pTemplate="content" let-event>
-          <p-card [header]="event.status" [subheader]="event.date" >
-            <p-fieldset legend="More Info" [toggleable]="true" >
-              <p>{{ event.rout | translate }}</p>
-              <p>{{ event.skills.lenght }}</p>
-            </p-fieldset>
-          </p-card>
-        </ng-template>
-      </p-timeline>
+        <i [ngClass]="event.icon"></i>
 
-</div> 
+      </span>
+    </ng-template>
+
+    <ng-template pTemplate="content" let-event>
+      <p-card [header]="event.status" [subheader]="event.date">
+        <p-fieldset [legend]="moreInfoRout[0] | translate" [toggleable]="true">
+          <p>{{ event.rout | translate }}</p>
+          <p>{{ event.skills.lenght }}</p>
+        </p-fieldset>
+      </p-card>
+    </ng-template>
+  </p-timeline>
+
+</div>

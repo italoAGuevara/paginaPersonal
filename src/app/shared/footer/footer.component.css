@@ -1,10 +1,22 @@
-div {
-  position: relative;
-  bottom: 20px;
-  height: 100px;
-  width: 100%;
+ul{
+  display: inline-block;
+  list-style-type: none;
 }
 
-li {
-  list-style: none;
+
+.footer{
+  bottom: 0px;    
+  display: list-item; 
+  position: absolute;
+}
+
+
+.iconSkill{
+  height: 30px;
+  width: 30px;
+}
+
+
+.listSkill{
+  display: list-item; 
 }

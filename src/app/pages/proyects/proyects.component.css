@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+
+hr{
+    margin-bottom: 50px;
+}
+
+
+img{
+   width: 200px; 
+   height: 200px;
+} 
+
+
+ul{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.main1{
+    margin-left: 120px;
+    margin-right: 110px;
+}
+

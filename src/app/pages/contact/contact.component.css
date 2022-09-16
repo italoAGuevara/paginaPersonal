@@ -1,4 +1,15 @@
 div{
-    margin-left: 300px;
-    margin-right: 300px;
+    text-align: center;
+}
+
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
+
+
+ul{
+    display: inline-block;
+    margin-top: 160px;
 }

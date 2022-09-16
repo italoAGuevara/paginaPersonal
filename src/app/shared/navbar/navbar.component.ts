@@ -9,9 +9,9 @@ import { MenuItem, PrimeNGConfig } from 'primeng/api';
 })
 export class NavbarComponent {
 
-  flat : string = '../assets/flats/spain.png'
+  flat : string = '../assets/flats/english.png'
 
-  languaje : string = 'es'
+  languaje : string = 'en'
 
   dockBasicItems: MenuItem[] = [
     {
@@ -44,7 +44,7 @@ export class NavbarComponent {
 
   constructor( public translate: TranslateService, private primengConfig: PrimeNGConfig ) {
     this.translate.addLangs( [ 'es', 'en' ] )
-    this.translate.setDefaultLang( 'en' )
+    this.translate.setDefaultLang( 'es' )
   }
 
 

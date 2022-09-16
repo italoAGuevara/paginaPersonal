@@ -1,1 +1,26 @@
+
+
+<div>
+    
+    <h1>{{ "additionalsText.channels" | translate| titlecase }}</h1>
+
+    <ul *ngFor="let item of contactsItem">
+
+        <p-button
+            pRipple 
+            type="button"
+            styleClass="p-button-link">
+            
+            <ng-template pTemplate="content">
+                <a href="{{ item.url }}" target="_blank">
+                    <img alt="logo" src="{{ item.icon }}"/>
+                </a>
+            </ng-template>
+
+    </p-button>
+    </ul> 
+
+</div>
+
+
 <app-footer></app-footer>
